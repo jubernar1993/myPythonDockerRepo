@@ -1,7 +1,7 @@
 pipeline {
     agent any
         
-    }
+    
     stages {
 
         stage ('Code Checkout') {
@@ -20,3 +20,4 @@ pipeline {
             }
         }
 	}
+}
